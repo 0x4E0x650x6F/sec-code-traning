@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<configurations>
+  <database>
+	<hostname>localhost</hostname>
+	<port>3306</port>
+	<dbname>vuncms</dbname>
+	<username>vuncms</username>
+	<password>{password goes here}</password>
+	<dbtype>mysql</dbtype>
+   </database>
+</configurations>

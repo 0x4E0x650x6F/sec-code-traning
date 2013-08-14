@@ -1,0 +1,15 @@
+<h1>
+<?php 
+
+echo $welcome; 
+?>
+</h1>
+<br />
+<?php foreach ($users as $user) : ?>
+
+	<span>id: <?php echo $user['id']; ?></span>
+	<br />
+	<span>Name: <?php echo $user['name'] ?> </span>
+	<br />
+ <?php endforeach; ?>
+
